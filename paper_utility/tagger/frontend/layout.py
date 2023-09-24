@@ -64,6 +64,7 @@ def selector():
                 options=[
                     {"label": "RETWEET", "value": "one_or_more_retweet.csv"},
                     {"label": "NO RETWEET", "value": "no_retweet.csv"},
+                    {"label": "NEW_TWEET", "value": "new_tweets.csv"},
                 ],
                 value=0,
             ),
